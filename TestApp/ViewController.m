@@ -17,16 +17,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 // 画面を戻す
-- (IBAction)goBack:(UIStoryboardSegue *)segue {}
+- (IBAction)goBack:(UIStoryboardSegue *)segue {
+
+}
+
+// ボタンクリック時の処理
+- (IBAction)button:(id)sender {
+    // self は自分の画面
+    // self.label.text = @"You pushed me!";
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    NSDate *now = [NSDate date];
+    self.label.text = [formatter stringFromDate:now];
+}
 
 @end
