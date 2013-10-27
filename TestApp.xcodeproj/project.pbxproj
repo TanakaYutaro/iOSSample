@@ -24,6 +24,7 @@
 		29FA092B181CFD1C0019B009 /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FA092A181CFD1C0019B009 /* TestAppTests.m */; };
 		29FA0937181D0C4F0019B009 /* sample1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29FA0935181D0C4F0019B009 /* sample1.jpeg */; };
 		29FA0938181D0C4F0019B009 /* sample2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29FA0936181D0C4F0019B009 /* sample2.jpeg */; };
+		29FA093A181D543A0019B009 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FA0939181D543A0019B009 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		29FA092A181CFD1C0019B009 /* TestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppTests.m; sourceTree = "<group>"; };
 		29FA0935181D0C4F0019B009 /* sample1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpeg; sourceTree = "<group>"; };
 		29FA0936181D0C4F0019B009 /* sample2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.jpeg; sourceTree = "<group>"; };
+		29FA0939181D543A0019B009 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			files = (
 				29FA08FF181CFD1C0019B009 /* CoreGraphics.framework in Frameworks */,
 				29FA0901181CFD1C0019B009 /* UIKit.framework in Frameworks */,
+				29FA093A181D543A0019B009 /* MapKit.framework in Frameworks */,
 				29FA08FD181CFD1C0019B009 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +110,7 @@
 		29FA08FB181CFD1C0019B009 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				29FA0939181D543A0019B009 /* MapKit.framework */,
 				29FA08FC181CFD1C0019B009 /* Foundation.framework */,
 				29FA08FE181CFD1C0019B009 /* CoreGraphics.framework */,
 				29FA0900181CFD1C0019B009 /* UIKit.framework */,
@@ -216,6 +220,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Yutaro Tanaka";
 				TargetAttributes = {
+					29FA08F8181CFD1C0019B009 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					29FA091C181CFD1C0019B009 = {
 						TestTargetID = 29FA08F8181CFD1C0019B009;
 					};
