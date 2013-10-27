@@ -1,5 +1,7 @@
 # iOS サンプルをいろいろつくってみる
 
+[ドットインストール](http://dotinstall.com/lessons/basic_iphoneapp/25311 "ドットインストール")を参考に
+
 
 # 覚え書き
 
