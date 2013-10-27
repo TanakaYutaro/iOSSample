@@ -22,6 +22,8 @@
 		29FA0921181CFD1C0019B009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FA0900181CFD1C0019B009 /* UIKit.framework */; };
 		29FA0929181CFD1C0019B009 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29FA0927181CFD1C0019B009 /* InfoPlist.strings */; };
 		29FA092B181CFD1C0019B009 /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FA092A181CFD1C0019B009 /* TestAppTests.m */; };
+		29FA0937181D0C4F0019B009 /* sample1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29FA0935181D0C4F0019B009 /* sample1.jpeg */; };
+		29FA0938181D0C4F0019B009 /* sample2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29FA0936181D0C4F0019B009 /* sample2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		29FA0926181CFD1C0019B009 /* TestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAppTests-Info.plist"; sourceTree = "<group>"; };
 		29FA0928181CFD1C0019B009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29FA092A181CFD1C0019B009 /* TestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppTests.m; sourceTree = "<group>"; };
+		29FA0935181D0C4F0019B009 /* sample1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpeg; sourceTree = "<group>"; };
+		29FA0936181D0C4F0019B009 /* sample2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		29FA0902181CFD1C0019B009 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				29FA0934181D0BDB0019B009 /* img */,
 				29FA090B181CFD1C0019B009 /* AppDelegate.h */,
 				29FA090C181CFD1C0019B009 /* AppDelegate.m */,
 				29FA090E181CFD1C0019B009 /* Main_iPhone.storyboard */,
@@ -153,6 +158,15 @@
 				29FA0927181CFD1C0019B009 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29FA0934181D0BDB0019B009 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				29FA0935181D0C4F0019B009 /* sample1.jpeg */,
+				29FA0936181D0C4F0019B009 /* sample2.jpeg */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +247,9 @@
 			files = (
 				29FA0913181CFD1C0019B009 /* Main_iPad.storyboard in Resources */,
 				29FA0918181CFD1C0019B009 /* Images.xcassets in Resources */,
+				29FA0938181D0C4F0019B009 /* sample2.jpeg in Resources */,
 				29FA0910181CFD1C0019B009 /* Main_iPhone.storyboard in Resources */,
+				29FA0937181D0C4F0019B009 /* sample1.jpeg in Resources */,
 				29FA0907181CFD1C0019B009 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

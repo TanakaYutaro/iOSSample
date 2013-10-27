@@ -26,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+// 画面を戻す
+- (IBAction)goBack:(UIStoryboardSegue *)segue {}
+
 @end
